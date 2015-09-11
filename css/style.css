@@ -5,4 +5,6 @@
 .face { width: 150px; height: 150px; border-radius: 75px; }
 
 #con { border-radius: 0px 3px 3px; -webkit-border-radius: 0px 3px 3px; -moz-border-radius: 0px 3px 3px; box-shadow: black 3px 3px 0px 8px; -webkit-box-shadow: black 3px 3px 0px 8px; -moz-box-shadow: black 3px 3px 0px 8px; margin-bottom: 50px; text-align: center; width: 300px; margin-left: auto; margin-right: auto; }
-#con h2 { font-family: "Helvetica Neue", calibri, corbel; font-weight: bolder; }
+#con h2 { font-family: "Helvetica Neue", calibri, corbel; font-weight: bolder; color: black; }
+
+.menu { width: 80%; margin-top: 20px; }

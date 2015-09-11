@@ -47,7 +47,25 @@
 	<div class="row">
 		<div class="twelve columns">
 			<img src="image/logo.svg" id="logo" class="animate bounceIn">
-			<div id="con"><h2>Contents</h2></div>
+			<div id="con" class="wow bounceInUp"><h2>Contents</h2></div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="six columns">
+			<div class="center">
+				<img src="image/cn1.svg" class="menu wow bounceInLeft">
+				<img src="image/cn2.svg" class="menu wow bounceInLeft">
+				<img src="image/cn3.svg" class="menu wow bounceInLeft">
+			</div>
+		</div>
+		<div class="six columns">
+			<div class="center">
+				<img src="image/cn4.svg" class="menu wow bounceInRight">
+				<img src="image/cn5.svg" class="menu wow bounceInRight">
+				<img src="image/cn6.svg" class="menu wow bounceInRight">
+			</div>
+		</div>
+		<div class="twelve columns">
 			<span class="center">
 				<img src="image/ogi.jpg" class="face animate fadeInLeft">
 				<img src="image/mogi.jpg" class="face animate fadeInUp">
@@ -60,6 +78,10 @@
 
 	<!-- Grab Google CDN's jQuery, fall back to local if offline -->
 	<!-- 2.0 for modern browsers, 1.10 for .oldie -->
+	<script src="js/wow.js"></script>
+<script>
+   new WOW().init();
+</script>
 	<script>
 	var oldieCheck = Boolean(document.getElementsByTagName('html')[0].className.match(/\soldie\s/g));
 	if(!oldieCheck) {
