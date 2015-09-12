@@ -1,11 +1,23 @@
+@charset "UTF-8";
+body { font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif; }
+
 #logo { margin-top: 70px; margin-bottom: 50px; width: 90%; }
 
 .center { text-align: center; display: block; margin-right: auto; margin-left: auto; }
 
 .face { width: 150px; height: 150px; border-radius: 75px; }
 
-#con { border-radius: 0px 3px 3px; -webkit-border-radius: 0px 3px 3px; -moz-border-radius: 0px 3px 3px; box-shadow: black 3px 3px 0px 8px; -webkit-box-shadow: black 3px 3px 0px 8px; -moz-box-shadow: black 3px 3px 0px 8px; margin-bottom: 50px; text-align: center; width: 300px; margin-left: auto; margin-right: auto; }
+#con { border-radius: 0px 3px 3px; -webkit-border-radius: 0px 3px 3px; -moz-border-radius: 0px 3px 3px; box-shadow: black 3px 3px 0px 8px; -webkit-box-shadow: black 3px 3px 0px 8px; -moz-box-shadow: black 3px 3px 0px 8px; margin-bottom: 50px; text-align: center; width: 300px; margin-left: auto; margin-right: auto; cursor: pointer; transition: all 0.2s ease; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; transition: all 0.2s ease; }
+#con:hover { transform: scale(1.1) rotate(-7deg); -moz-transform: scale(1.1) rotate(-7deg); -webkit-transform: scale(1.1) rotate(-7deg); }
 #con h2 { font-family: "Helvetica Neue", calibri, corbel; font-weight: bolder; color: black; }
 
 .menu { width: 80%; margin-top: 20px; transition: all 0.2s ease; }
-.menu:hover { transform: scale(1.3); }
+.menu:hover { transform: scale(1.2) rotate(-7deg); opacity: 0.8; }
+
+#kyo { margin: 20px 0; text-align: center; color: #F1B230; font-weight: bold; }
+
+.rightside { width: 50px; position: fixed; right: 0; top: 10%; }
+
+.to { display: table; text-align: center; right: 0; width: 30px; border-radius: 5px 0px 0px 5px; background-color: #F1B230; height: 70px; margin: 13px 0 13px auto; transition: all 0.2s ease; box-shadow: 2px 2px 0px 5px black; -webkit-box-shadow: 2px 2px 0px 5px black; -moz-box-shadow: 2px 2px 0px 5px black; }
+.to:hover { width: 50px; }
+.to p { display: table-cell; text-align: center; vertical-align: middle; font-weight: bold; color: white; font-size: 20px; }

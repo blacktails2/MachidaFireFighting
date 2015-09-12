@@ -44,15 +44,23 @@
 </head>
 
 <body>
+	<div class="rightside">
+		<div class="to"><p>1</p></div>
+		<div class="to"><p>2</p></div>
+		<div class="to"><p>3</p></div>
+		<div class="to"><p>4</p></div>
+		<div class="to"><p>5</p></div>
+		<div class="to"><p>6</p></div>
+	</div>
 	<div class="row">
 		<div class="twelve columns">
 			<img src="image/logo.svg" id="logo" class="animate bounceIn">
-			<div id="con" class="wow bounceInUp"><h2>Contents</h2></div>
+			<div id="con" class="animate bounceInUp skiplink"><a href="#" gumby-goto="#skip2" gumby-offset="-60"><h2>Contents</h2></a></div>
 		</div>
 	</div>
 	<div class="row">
 		<div class="six columns">
-			<div class="center">
+			<div class="center" id="skip2">
 				<img src="image/cn1.svg" class="menu wow bounceInLeft">
 				<img src="image/cn2.svg" class="menu wow bounceInLeft">
 				<img src="image/cn3.svg" class="menu wow bounceInLeft">
@@ -66,10 +74,11 @@
 			</div>
 		</div>
 		<div class="twelve columns">
+			<h3 id="kyo" class="wow bounceInLeft">インタビューに協力していただいた団員の方々</h3>
 			<span class="center">
-				<img src="image/ogi.jpg" class="face animate fadeInLeft">
-				<img src="image/mogi.jpg" class="face animate fadeInUp">
-				<img src="image/kono.jpg" class="face animate fadeInRight">
+				<img src="image/ogi.jpg" class="face wow fadeInLeftBig">
+				<img src="image/mogi.jpg" class="face wow fadeInUpBig">
+				<img src="image/kono.jpg" class="face wow fadeInRightBig">
 			</span>
 		</div>
 		
