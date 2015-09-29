@@ -37,7 +37,7 @@
 		 However, there is a blank style.css in the css directory should you prefer -->
 	<link rel="stylesheet" href="css/gumby.css">
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/animate2.css">
 	<!-- <link rel="stylesheet" href="css/style.css"> -->
 
 	<script src="js/libs/modernizr-2.6.2.min.js"></script>
@@ -59,18 +59,19 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="six columns">
-			<div class="center" id="skip2">
-				<img src="image/cn1.svg" class="menu wow bounceInLeft">
-				<img src="image/cn2.svg" class="menu wow bounceInLeft">
-				<img src="image/cn3.svg" class="menu wow bounceInLeft">
+		<div class="four columns">
+			<div class="center skiplink" id="skip2">
+				<a href="#" gumby-goto="#skip3" gumby-offset="-60"><img src="image/cn1.svg" class="menu wow bounceInLeft"></a>
 			</div>
 		</div>
-		<div class="six columns">
-			<div class="center">
-				<img src="image/cn4.svg" class="menu wow bounceInRight">
-				<img src="image/cn5.svg" class="menu wow bounceInRight">
-				<img src="image/cn6.svg" class="menu wow bounceInRight">
+		<div class="four columns">
+			<div class="center skiplink">
+				<a href="#" gumby-goto="#skip4" gumby-offset="-60"><img src="image/cn3.svg" class="menu wow bounceInLeft"></a>
+			</div>
+		</div>
+		<div class="four columns">
+			<div class="center skiplink">
+				<a href="#" gumby-goto="#skip5" gumby-offset="-60"><img src="image/cn6.svg" class="menu wow bounceInLeft"></a>
 			</div>
 		</div>
 		<div class="twelve columns">
@@ -80,6 +81,28 @@
 				<img src="image/mogi.jpg" class="face wow fadeInUpBig">
 				<img src="image/kono.jpg" class="face wow fadeInRightBig">
 			</span>
+		</div>
+		<div class="twelve columns">
+			<div id="skip3">
+				<img src="image/01logo.svg" class="wow bounceInUp center main">
+				<img src="image/01main.svg" class="wow bounceInUp mainc" id="main1">
+				<div class="skiplink">
+					<a href="#" gumby-goto="top"><img src="image/first.svg" class="wow bounceInUp" id="gotop1"></a>
+					<a href="#" gumby-goto="#skip2" gumby-offset="-60"><img src="image/back.svg" class="wow bounceInLeft" id="back1"></a>
+					<a href="#" gumby-goto="#skip4" gumby-offset="-60" id="next1"><img src="image/next.svg" class="wow bounceInRight"></a>
+				</div>
+			</div>
+		</div>
+		<div class="twelve columns">
+			<div id="skip4">
+				<img src="image/02logo.svg" class="wow bounceInUp center main">
+				<img src="image/021main.svg" class="wow bounceInUp mainc">
+				<div class="skiplink">
+					<a href="#" gumby-goto="top"><img src="image/first.svg" class="wow bounceInUp" id="gotop1"></a>
+					<a href="#" gumby-goto="#skip2" gumby-offset="-60"><img src="image/back.svg" class="wow bounceInLeft" id="back1"></a>
+					<a href="#" gumby-goto="#skip4" gumby-offset="-60" id="next1"><img src="image/next.svg" class="wow bounceInRight"></a>
+				</div>
+			</div>
 		</div>
 		
 	</div>
