@@ -25,3 +25,5 @@ img.menu:hover { -webkit-transform: scale(1.2) rotate(-7deg); opacity: 0.8; }
 .main { margin-top: 20%; width: 70%; }
 
 .mainc { width: 100%; transform: scale(1.5); }
+
+#main1 { transform: scale(1.5); }
