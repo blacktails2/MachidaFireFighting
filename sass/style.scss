@@ -108,3 +108,16 @@ $rtside: 5px 0px 0px 5px;
 #main1{
 	transform: scale(1.5);
 }
+img.over{
+	animation-fill-mode: backwards;
+	-webkit-transition: all 0.2s ease;
+	&:hover{
+		-webkit-transform: scale(1.2);
+		opacity: (0.8);
+	}
+}
+#mov{
+	position: fixed;
+	right: 30px;
+	top: 30px;
+}

@@ -27,3 +27,8 @@ img.menu:hover { -webkit-transform: scale(1.2) rotate(-7deg); opacity: 0.8; }
 .mainc { width: 100%; transform: scale(1.5); }
 
 #main1 { transform: scale(1.5); }
+
+img.over { animation-fill-mode: backwards; -webkit-transition: all 0.2s ease; }
+img.over:hover { -webkit-transform: scale(1.2); opacity: 0.8; }
+
+#mov { position: fixed; right: 30px; top: 30px; }
